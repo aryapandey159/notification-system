@@ -1,6 +1,6 @@
 # Notification System — Event-Driven Architecture with Apache Kafka
 
-A production-grade, event-driven notification system built with Apache Kafka, Spring Boot, and MySQL. When an event is published (e.g. order placed), the system asynchronously processes it and sends an email notification to the user — with automatic retries and Dead Letter Queue support for failure handling.
+A production-grade, event-driven notification system built with Apache Kafka,Docker, Spring Boot, and MySQL. When an event is published (e.g. order placed), the system asynchronously processes it and sends an email notification to the user — with automatic retries and Dead Letter Queue support for failure handling.
 
 ---
 
